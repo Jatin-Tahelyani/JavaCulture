@@ -36,8 +36,10 @@
 
 .nav-container {
     margin: 40px auto;
-    width: fit-content;
+    width: 100%;
     position: relative;
+    padding: 40px;
+    padding-top: 0px;
 }
 
 .nav-line {
@@ -49,11 +51,11 @@
 }
 
 .nav-line.left {
-    left: 40px;
+    left: 100px;
 }
 
 .nav-line.right {
-    right: 40px;
+    right: 100px;
 }
 
 @media (max-width: 768px) {
